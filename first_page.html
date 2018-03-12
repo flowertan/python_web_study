@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic</title>
+    <style>
+        body{
+            background-color: #CCC;
+        }
+        #content{
+            background-color: black;
+            padding: 15px;
+        }
+        #content h2{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic HTML</h1>
+    <div id="content">
+        <h2>Div Content</h2>
+    </div>
+    <script>
+        window.onload=function () {
+            alert('alert demo');
+            var content = document.getElementById("content");
+            var fontsize = 18;
+            content.onclick=function () {
+                if(fontsize<40){
+                    fontsize = fontsize+2
+                }
+                content.style.fontSize = fontsize+'px';
+            }
+        }
+    </script>
+</body>
+</html>
