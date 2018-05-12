@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    -->
+    <style>
+        body{
+            background-color: #CCC;
+        }
+        .col-md-3 li a:hover {
+            color: black;
+        }
+        #content {
+            background-color: white;
+        }
+
+        .col-md-3 li a{
+            border: 0px;
+            color: white;
+            border-radius: 0px;
+            margin-right: 0px;
+        }
+
+        .col-md-3 ul{
+            background-color: rgb(27, 27, 27);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Django+Bootstrap</h1>
+        <!--导航条-->
+        <nav class="navbar navbar-default navbar-inverse">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Django-Web</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="s-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog List</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- 主体-->
+        <div id='content' class="container-fluid">
+            <div class="col-md-9">
+                <h2>Django Web</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Sidebar</h2>
+                <ul class="nav nav-tabs nav-stacked">
+                    <li>
+                        <a href="#">How to start Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="#">First Django Project</a>
+                    </li>
+                    <li>
+                        <a href="#">Django Model</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
